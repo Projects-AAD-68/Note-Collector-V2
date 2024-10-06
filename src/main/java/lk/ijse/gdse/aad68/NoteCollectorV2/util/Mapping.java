@@ -1,9 +1,9 @@
 package lk.ijse.gdse.aad68.NoteCollectorV2.util;
 
-import lk.ijse.gdse.aad68.notetaker.dto.impl.NoteDTO;
-import lk.ijse.gdse.aad68.notetaker.dto.impl.UserDTO;
-import lk.ijse.gdse.aad68.notetaker.entity.NoteEntity;
-import lk.ijse.gdse.aad68.notetaker.entity.UserEntity;
+import lk.ijse.gdse.aad68.NoteCollectorV2.dto.impl.NoteDTO;
+import lk.ijse.gdse.aad68.NoteCollectorV2.dto.impl.UserDTO;
+import lk.ijse.gdse.aad68.NoteCollectorV2.entity.NoteEntity;
+import lk.ijse.gdse.aad68.NoteCollectorV2.entity.UserEntity;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.TypeToken;
 import org.springframework.beans.factory.annotation.Autowired;
