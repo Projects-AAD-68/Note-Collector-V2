@@ -1,11 +1,11 @@
 package lk.ijse.gdse.aad68.NoteCollectorV2.controller;
 
-import lk.ijse.gdse.aad68.notetaker.customObj.NoteErrorResponse;
-import lk.ijse.gdse.aad68.notetaker.customObj.NoteResponse;
-import lk.ijse.gdse.aad68.notetaker.dto.impl.NoteDTO;
-import lk.ijse.gdse.aad68.notetaker.exception.DataPersistFailedException;
-import lk.ijse.gdse.aad68.notetaker.exception.NoteNotFound;
-import lk.ijse.gdse.aad68.notetaker.service.NoteService;
+import lk.ijse.gdse.aad68.NoteCollectorV2.customObj.NoteErrorResponse;
+import lk.ijse.gdse.aad68.NoteCollectorV2.customObj.NoteResponse;
+import lk.ijse.gdse.aad68.NoteCollectorV2.dto.impl.NoteDTO;
+import lk.ijse.gdse.aad68.NoteCollectorV2.exception.DataPersistFailedException;
+import lk.ijse.gdse.aad68.NoteCollectorV2.exception.NoteNotFound;
+import lk.ijse.gdse.aad68.NoteCollectorV2.service.NoteService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
