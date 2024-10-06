@@ -1,15 +1,15 @@
 package lk.ijse.gdse.aad68.NoteCollectorV2.service;
 
 import jakarta.transaction.Transactional;
-import lk.ijse.gdse.aad68.notetaker.customObj.NoteErrorResponse;
-import lk.ijse.gdse.aad68.notetaker.customObj.NoteResponse;
-import lk.ijse.gdse.aad68.notetaker.dao.NoteDao;
-import lk.ijse.gdse.aad68.notetaker.dto.impl.NoteDTO;
-import lk.ijse.gdse.aad68.notetaker.entity.NoteEntity;
-import lk.ijse.gdse.aad68.notetaker.exception.DataPersistFailedException;
-import lk.ijse.gdse.aad68.notetaker.exception.NoteNotFound;
-import lk.ijse.gdse.aad68.notetaker.util.AppUtil;
-import lk.ijse.gdse.aad68.notetaker.util.Mapping;
+import lk.ijse.gdse.aad68.NoteCollectorV2.customObj.NoteErrorResponse;
+import lk.ijse.gdse.aad68.NoteCollectorV2.customObj.NoteResponse;
+import lk.ijse.gdse.aad68.NoteCollectorV2.dao.NoteDao;
+import lk.ijse.gdse.aad68.NoteCollectorV2.dto.impl.NoteDTO;
+import lk.ijse.gdse.aad68.NoteCollectorV2.entity.NoteEntity;
+import lk.ijse.gdse.aad68.NoteCollectorV2.exception.DataPersistFailedException;
+import lk.ijse.gdse.aad68.NoteCollectorV2.exception.NoteNotFound;
+import lk.ijse.gdse.aad68.NoteCollectorV2.util.AppUtil;
+import lk.ijse.gdse.aad68.NoteCollectorV2.util.Mapping;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
