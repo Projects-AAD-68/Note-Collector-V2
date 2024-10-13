@@ -1,4 +1,4 @@
-package lk.ijse.gdse.aad68.NoteCollectorV2.jwtodels;
+package lk.ijse.gdse.aad68.NoteCollectorV2.jwtmodels;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
