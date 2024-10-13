@@ -52,12 +52,7 @@ public class JWTConfig extends OncePerRequestFilter {
                 authToken.setDetails(new WebAuthenticationDetails(request));
                 emptyContext.setAuthentication(authToken);
                 SecurityContextHolder.setContext(emptyContext);
-
-
-
             }
-
-
         }
 
 
