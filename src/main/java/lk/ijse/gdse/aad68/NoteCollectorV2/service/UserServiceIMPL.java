@@ -62,7 +62,7 @@ public class UserServiceIMPL implements UserService{
     @Override
     public UserResponse getSelectedUser(String userId) {
         if(userDao.existsById(userId)){
-            UserEntity userEntityByUserId = userDao.getUserEntityByUserId(userId);
+            UserEntity userEntityByUserId = userDao.getReferenceById(userId);
             return mapping.convertToUserDTO(userEntityByUserId);
         }else {
             return new UserErrorResponse(0, "User not found");

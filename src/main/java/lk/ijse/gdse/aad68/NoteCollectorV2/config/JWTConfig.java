@@ -54,9 +54,6 @@ public class JWTConfig extends OncePerRequestFilter {
                 SecurityContextHolder.setContext(emptyContext);
             }
         }
-
-
-
-
+        filterChain.doFilter(request,response);
     }
 }
